@@ -1,12 +1,12 @@
 from setuptools import setup
-setup(name = 'rikka-bot',
+setup(name = 'TBD',
     version='0.1',
     description='A discord bot that performs various functions.',
-    url='https://github.com/LeoSaucedo/rikka-bot',
-    author='LeoSaucedo',
-    author_email='carlos@cgsphoto.com',
+    url='https://github.com/gloriousblank/tobdetermined',
+    author='gloriousblank',
+    author_email='gloriousblank@gmail.com',
     license='GPL-3.0',
-    packages=['rikka-bot'],
+    packages=['TBD'],
     install_requires=[
         'discord',
         'asyncio',
