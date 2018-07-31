@@ -1,6 +1,6 @@
 from setuptools import setup
 setup(name = 'TBD',
-    version='0.1',
+    version='1.0',
     description='A discord bot that performs various functions.',
     url='https://github.com/gloriousblank/tobdetermined',
     author='gloriousblank',
