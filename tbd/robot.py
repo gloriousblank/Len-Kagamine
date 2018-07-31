@@ -138,9 +138,10 @@ async def on_message(message):
         await message.channel.send(msg)
         await message.delete()
         
-    elif message.content.upper().startswith(command("NO U",message)):
-        msg = "{0.mentions[0].mention} has been roasted by {0.author.mention}".format(message)
+    elif message.content.upper().startswith(command("NO U", message)):
+        msg = "{0.mentions[0].mention} ".format(message) + gaylist[randint(0,gayCount)]
         await message.channel.send(msg)
+        await message.delete()
         
     elif message.content.upper().startswith(command("XBOX", message)):
         role = discord.Role(xbox)
