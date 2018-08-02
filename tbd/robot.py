@@ -112,7 +112,7 @@ gayfile.close()
 xbox = 473687682334195733
 playstation = 473687698893176842
 pc = 473687715607478283
-
+announcements = 471700733578838036
 '''
 commands
 '''
@@ -174,6 +174,10 @@ async def on_message(message):
             elif message.channel.permissions_for(message.author).administrator == False:
                 msg = "Sorry {0.author.mention}. You do not have permission to use this command. DM an admin to report this player.".format(message)
                 await message.channel.send(msg)
+    #if message.content.upper().startswith(command("POLL", message)):
+        #if message.channel.permissions_for(message.author).administrator == True:
+            
+            
 '''
 Autonomous commands
 '''
